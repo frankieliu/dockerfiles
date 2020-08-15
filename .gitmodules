@@ -1,0 +1,3 @@
+[submodule "http-long-polling"]
+	path = http-long-polling
+	url = https://github.com/AdamWorthington/http-long-polling

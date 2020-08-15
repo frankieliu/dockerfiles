@@ -1,0 +1,43 @@
+! file: ~/Xresources
+
+!XTerm*background: #2D2D2D
+!XTerm*background: #FFFFFF
+!XTerm*background: #300a24
+!XTerm*background: #151517161818
+!XTerm*foreground: #D2D2D2
+!Xterm*foreground: #300a24
+XTerm*background: #2d0922
+XTerm*foreground: #FEFEFEFEFEFE
+XTerm*cursorColor: #FEFEFEFEFEFE
+
+XTerm*scrollBar: True
+XTerm*rightScrollBar: True
+XTerm*saveLines: 10000 
+XTerm*vt100*geometry:   88x24
+
+!XTerm*faceName: DejaVu Sans Mono Bold:size=11
+!XTerm*faceName: Ubuntu Mono:size=15
+XTerm*faceName: Terminus:style=Regular:size=15
+
+XTerm*renderFont: true
+
+UXTerm*background:         black
+UXTerm*foreground:         white
+UXTerm*cursorColor:        white
+UXTerm*VT100.geometry:     88x24
+
+!UXTerm*font:              -*-dina-medium-r-*-*-16-*-*-*-*-*-*-*
+!UXTerm*font:                terminus-10
+UXTerm*faceName:           Terminus:style=Regular:size=15
+
+UXTerm*dynamicColors:      true
+UXTerm*utf8:               2
+UXTerm*eightBitInput:      true
+UXTerm*saveLines:          10000 
+UXTerm*scrollKey:          true
+UXTerm*scrollTtyOutput:    false
+UXTerm*scrollBar:          true
+UXTerm*rightScrollBar:     true
+UXTerm*jumpScroll:         true
+UXTerm*multiScroll:        true
+UXTerm*toolBar:            false
