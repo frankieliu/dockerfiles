@@ -19,6 +19,8 @@ RUN apt-get install curl gnupg -yq \
     && apt-get install zip unzip -yq \
     && apt-get install menu menu-l10n -yq
 
+RUN apt-get install imagemagick geeqie gimp inkscape snapd -yq
+
 RUN apt-get install tigervnc-standalone-server xfonts-100dpi xfonts-scalable -yq \
     && apt-get install tigervnc-xorg-extension -yq \
     && apt-get install tigervnc-viewer -yq
