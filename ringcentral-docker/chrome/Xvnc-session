@@ -1,0 +1,14 @@
+#! /bin/sh
+
+test x"$SHELL" = x"" && SHELL=/bin/bash
+test x"$1"     = x"" && set -- default
+
+vncconfig -iconic &
+$SHELL -l <<EOF
+[ -r $HOME/Xresources ] && xrdb -merge $HOME/Xresources
+sleep 0.5
+xterm &
+exec /etc/X11/Xsession "$@"
+EOF
+vncserver -kill $DISPLAY
+
